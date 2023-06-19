@@ -48,8 +48,20 @@ img{
 /*----------
     buttons 
 -----------*/
+.btn {
+    font-weight: 600px !important;
+}
+.btn-primary{
+    background-color: #975af9 !important;
+}
 
+.btn-primary:hover{
+    background-color: var(--c-secondary) !important;
+}
 
+.btn-light{
+    background-color: var(--c-backgorund);
+}
 /*----------
     Navbar 
 -----------*/
@@ -62,3 +74,13 @@ img{
 /*-----------
     Main Page 
 ------------*/
+
+#Hero{
+    background: url(/website/img/home/Hero-img.jpg);
+    background-position: top;
+    margin-top: -55px;
+}
+
+.herotext{
+    font-size: 95px;
+}
