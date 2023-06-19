@@ -1,7 +1,64 @@
+
+/*----------
+    color,font and variables 
+-----------*/
+
 :root{
     --font-base:"poppins", sans-serif;
+    --c-primary: #975af9;
+    --c-secondary: #46a7f8;
+    --c-backgorund:#e6e6e6;
+    --c-dark: #2d2d2d;
+    --c-black: #000000;
+
 }
 
 body{
     font-family: var(--font-base);
+    font-size: 16px;
+    line-height: 1.6;
 }
+
+.h1 .h2 .h3 .h4 .h5 .h6{
+    font-weight: 600px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--c-primary);
+}
+
+a:hover{
+    color: var(--c-secondary);
+}
+
+.section-padding{
+    padding-top: 120px ;
+    padding-bottom: 120px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar-dark{
+    background-color: var(--c-black);
+}
+/*----------
+    buttons 
+-----------*/
+
+
+/*----------
+    Navbar 
+-----------*/
+.navbar{
+    font-family: var(--font-base);
+    font-size: 16px;
+    
+}
+
+/*-----------
+    Main Page 
+------------*/
