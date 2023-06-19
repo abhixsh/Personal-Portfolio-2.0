@@ -76,11 +76,52 @@ img{
 ------------*/
 
 #Hero{
-    background: url(/website/img/home/Hero-img.jpg);
+    background: url(/website/img/home/Hero-img.jpg) !important;
     background-position: top;
     margin-top: -55px;
 }
 
 .herotext{
     font-size: 95px;
+}
+
+/*-----------
+    About us
+------------*/
+
+.brand-title{
+    font-size: 65px;
+    font-weight: 750px;
+    font-family: var(--font-base);
+}
+
+.brand-p{
+    font-size: 15px;
+    font-weight: 750px;
+    font-family: var(--font-base) !important;
+}
+/*-----------
+    End
+------------*/
+
+.brand-title-light{
+
+    font-size: 65px;
+    font-weight: 750px;
+    font-family: var(--font-base);
+    color: var(--c-backgorund);
+
+}
+
+/*-----------
+    icon box
+------------*/
+
+.icon-box{
+    background: var(--c-primary);
+    color: #46a7f8;
+    width: 70px;
+    align-items: center;
+    font-size: 35px;
+    flex: none;
 }
